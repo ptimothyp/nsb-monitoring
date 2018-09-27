@@ -6,8 +6,8 @@ class Program
 {
     static async Task Main()
     {
-        Console.Title = "EndpointsMonitor";
-        var endpointConfiguration = new EndpointConfiguration("EndpointsMonitor");
+        Console.Title = "Samples.EndpointsMonitor";
+        var endpointConfiguration = new EndpointConfiguration("Samples.EndpointsMonitor");
         endpointConfiguration.UseSerialization<NewtonsoftSerializer>();
         endpointConfiguration.EnableInstallers();
         endpointConfiguration.UsePersistence<InMemoryPersistence>();
